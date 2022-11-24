@@ -1,0 +1,40 @@
+# IMPORTANT: It is very important that you correctly complete this originality
+# statement.
+#
+# This is your statement of your submitted work being your own.
+# Incorrectly filling out this statement could lead to charges
+# of academic misconduct.
+# 
+# For information on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1110/help/faq/09-originality/
+#
+
+declaration: >-
+  I submit the work below for assessment as my best work. I declare that this
+  is entirely my own work, with the following documented exceptions:
+
+# Use this to list names of people who you collaborated with, and a
+# comment about what you collaborated on.
+#
+# Add as many "name+comment" entries as necessary
+# (or remove it altogether if you haven't collaborated with anyone)
+collaboration:
+  - name: Hamish Hunter
+    comment: For CatanDice.checkResources(), the method was originally written by Hamish, before I re-wrote it to use the class based infrastructure. Therefore, the actual idea used to solve the problem is initially his, merely the methodology changed.>-
+
+# I wish to submit the following classes as entirely my own (remove this if
+# you want to just submit methods):
+class:
+   - Building (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/Building.java)
+
+# I wish to submit the following methods as entirely my own (remove this if
+# you want to just submit classes):
+method:
+  - CatanDice.pathTo() (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/CatanDice.java#L576-599)
+  - CatanDice.rollDice() (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/CatanDice.java#L223-241)
+  - CatanDice.checkResources() (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/CatanDice.java#L311-323) #This method uses Resource.greaterThanEqualTo() as a heavy part of it's implementation. This method can be found here: (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/Resource.java#L146-151)
+  - Game.getStructure() (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/Game.java#L135-149) #This method uses Building.getBuildingFromValue() as a heavy part of it's implementation. This method can be found here: (https://gitlab.cecs.anu.edu.au/u7498619/comp1110-ass2/-/blob/main/src/comp1110/ass2/Building.java#L66-74)
+
+# sign *your* name and uid here
+name: Samuel Mason-Cox
+uid: u7495714
